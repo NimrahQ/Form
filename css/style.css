@@ -1,0 +1,88 @@
+#form{
+    background-color:#912ed3;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    background-color:white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.form h4{
+    display: block;
+    height: 35px;
+    width: 24px;
+    border: 0;
+    border-bottom: 3px solid #964ed1;
+    margin: 1.5em 0;
+    padding: 0;
+}
+.innerform input{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(160, 160, 160);
+}
+.innerform  #password{
+    margin-bottom: 10px;
+}
+.innerform span a{
+  color: #964ed1;
+}
+.innerform p{
+    text-align: center;
+}
+.innerform input[type=submit]{
+    font-size: 17px;
+    background-color: #964ed1;
+    color: white;
+    margin-top: 2rem;
+    padding: 10px 0;
+    border-radius: 5px;
+} 
+
+.image{
+    height: auto;
+    background-image: url(../image/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.image .outer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .text{
+    width: 70%;
+    color: white;
+    text-align: center;  
+   
+}
+@media only screen and (max-width: 768px) {
+   
+       #form{
+       
+        height: auto;
+       }
+     .image{
+        height: 60vh;
+     }.image  h2 {
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 425px){
+    #form{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .image{
+        height: 35vh;
+     }
+  }
